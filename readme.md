@@ -1,4 +1,4 @@
-# Aurelia-Chart
+# Ecd-Chart
 
 A simple binding to let aurelia and chartjs (2.x) come together for the greater good.
 
@@ -17,23 +17,23 @@ the latest chartjs the type syntax is lower case now, so you no longer need to w
 use JSPM:
 
 ```sh
-jspm install npm:aurelia-chart
+jspm install npm:ecd-chart
 ```
 
 then include the plugin in aurelia
 
 ```sh
-aurelia.use.plugin("aurelia-chart");
+aurelia.use.plugin("ecd-chart");
 ```
 
 ### Webpack
-use npm to install Aurelia-Chart
+use npm to install ecd-chart
 
 ```sh
-npm install aurelia-chart --save
+npm install ecd-chart --save
 ```
 
-then modify your `package.json` to include the Aurelia-Chart resources
+then modify your `package.json` to include the Ecd-Chart resources
 ```javascript
 dependencies {
  ...
@@ -41,8 +41,8 @@ dependencies {
 "aurelia": {
     "build": {
       "resources": [
-        "aurelia-chart/elements/chart-element",
-        "aurelia-chart/attributes/chart-attribute"
+        "ecd-chart/elements/chart-element",
+        "ecd-chart/attributes/chart-attribute"
       ]
     }
 }
@@ -53,8 +53,8 @@ dependencies {
 After MANY hours of soul destroying asking of questions and finding out system.js seems to have a weird bug,
 there is now a space age example available for you to see:
 
-[View JSPM Example](https://rawgit.com/grofit/aurelia-chart/master/examples/jspm/index.html)
-[View Webpack Example](https://rawgit.com/grofit/aurelia-chart/master/examples/webpack/index.html)
+[View JSPM Example](https://rawgit.com/grofit/ecd-chart/master/examples/jspm/index.html)
+[View Webpack Example](https://rawgit.com/grofit/ecd-chart/master/examples/webpack/index.html)
 
 You can see the code and everything in the examples folder!
 

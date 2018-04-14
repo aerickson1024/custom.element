@@ -1,5 +1,5 @@
 {
-  "name": "aurelia-chart",
+  "name": "ecd-chart",
   "version": "0.2.7",
   "registry": "jspm",
   "description": "A simple element to handle showing charts (uses chart js behind the scenes)",
@@ -12,8 +12,7 @@
   "license": "MIT",
   "main": "dist/commonjs/index.js",
   "repository": {
-    "type": "git",
-    "url": "http://github.com/grofit/aurelia-chart"
+    "type": "git"
   },
   "jspmNodeConversion": false,
   "jspm": {
@@ -83,8 +82,8 @@
   "aurelia": {
     "build": {
       "resources": [
-        "aurelia-chart/elements/chart-element",
-        "aurelia-chart/attributes/chart-attribute"
+        "ecd-chart/elements/chart-element",
+        "ecd-chart/attributes/chart-attribute"
       ]
     }
   }
