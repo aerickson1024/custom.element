@@ -1,6 +1,6 @@
 {
   "name": "ecd-chart",
-  "version": "0.2.7",
+  "version": "0.3.0",
   "registry": "jspm",
   "description": "A simple element to handle showing charts (uses chart js behind the scenes)",
   "keywords": [
